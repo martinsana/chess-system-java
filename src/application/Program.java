@@ -20,7 +20,7 @@ public class Program {
 
 		while (true) {
 
-			try {
+			try { 
 				UI.clearScreen();
 				UI.printMatch(chessmatch, captured); 
 				System.out.println();
@@ -46,7 +46,7 @@ public class Program {
 			} catch (InputMismatchException e) {
 				System.out.println(e.getMessage());
 				sc.nextLine();
-			}
+			} 
 		}
 
 	}
